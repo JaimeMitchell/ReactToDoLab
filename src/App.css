@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    display: grid;
+    grid-auto-flow: dense;
+    padding: 20px;
+    justify-content: space-between;
+    grid-gap: 20px;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.132);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 5em;
+    background-color: rgba(0, 0, 255, 0.132);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+    font-size: 24pt;
+    display: flex;
+    justify-content: center;
+    border-radius: 5em;
+    background-color: rgba(0, 0, 255, 0.132);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 5em;
+    background-color: rgba(0, 0, 255, 0.132);
+
 }
 
-.App-link {
-  color: #61dafb;
+form {
+    display: flex;
+    display: flex;
+    justify-content: center;
+background-color: rgba(0, 0, 255, 0.132);
+border-radius: 5em;
+background-color: rgba(0, 0, 255, 0.132);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5em;
+    background-color: rgba(0, 0, 255, 0.132);
+
+}
+
+.todolist {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5em;
+    background-color: rgba(0, 0, 255, 0.132);
+
 }
