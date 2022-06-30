@@ -34,7 +34,7 @@ class App extends Component {
       TodoData: [newTodo, ...this.state.TodoData],
       TaskName: "",
       Description: "",
-      Completed: false
+      Completed: !false
     })
   }
   render() {
